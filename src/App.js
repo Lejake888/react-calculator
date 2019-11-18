@@ -20,9 +20,9 @@ class App extends React.Component {
 }
 
   EqualPress = () => {
-    let total = 5;
+    let total = this.state.screen.toString();
     console.log(total)
-    this.setState({screen: [total]})
+
   }
 
   ClearPress = () => {
