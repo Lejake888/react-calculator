@@ -1,22 +1,46 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.calculator {
+  text-align: right;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+  background-color: red;
 }
 
-.App-link {
-  color: #09d3ac;
+.screen {
+  width: 35%;
+  height: 50px;
+  background-color: black;
+  color: white;
+  padding-right: 10px;
+}
+
+.allButtons {
+  width: 40%;
+  display: flex;
+}
+
+button {
+  width: 33.3333%;
+  border-style: 2px solid black;
+  background-color: rgb(201, 201, 201);
+  color: black;
+  outline-style: none;
+}
+
+.mainButtons {
+  display: flex;
+  flex-flow: wrap-reverse row;
+  height: 40vh;
+  width: 80%;
+}
+
+.operatorButtons {
+  display: flex;
+  flex-direction: wrap column;
+  height: 100%;
+  width: 20%
+}
+
+#clear {
+  flex: 2;
 }
