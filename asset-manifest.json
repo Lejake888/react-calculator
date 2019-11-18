@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Lejake888/react-calculator.git/static/css/main.4f5a7914.chunk.css",
+    "main.js": "/Lejake888/react-calculator.git/static/js/main.22563b6f.chunk.js",
+    "main.js.map": "/Lejake888/react-calculator.git/static/js/main.22563b6f.chunk.js.map",
+    "runtime-main.js": "/Lejake888/react-calculator.git/static/js/runtime-main.08e059b4.js",
+    "runtime-main.js.map": "/Lejake888/react-calculator.git/static/js/runtime-main.08e059b4.js.map",
+    "static/js/2.6a2eb1ac.chunk.js": "/Lejake888/react-calculator.git/static/js/2.6a2eb1ac.chunk.js",
+    "static/js/2.6a2eb1ac.chunk.js.map": "/Lejake888/react-calculator.git/static/js/2.6a2eb1ac.chunk.js.map",
+    "index.html": "/Lejake888/react-calculator.git/index.html",
+    "precache-manifest.9b1e4bbc9d43999a68a0ec8b6ab235a9.js": "/Lejake888/react-calculator.git/precache-manifest.9b1e4bbc9d43999a68a0ec8b6ab235a9.js",
+    "service-worker.js": "/Lejake888/react-calculator.git/service-worker.js",
+    "static/css/main.4f5a7914.chunk.css.map": "/Lejake888/react-calculator.git/static/css/main.4f5a7914.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.08e059b4.js",
+    "static/js/2.6a2eb1ac.chunk.js",
+    "static/css/main.4f5a7914.chunk.css",
+    "static/js/main.22563b6f.chunk.js"
+  ]
+}
