@@ -17,8 +17,13 @@ class App extends React.Component {
       {nine: 9},
     ],
     screen: [],
-    total: 0
 }
+
+  EqualPress = () => {
+    let total = 5;
+    console.log(total)
+    this.setState({screen: [total]})
+  }
 
   ClearPress = () => {
     this.setState({screen: []})
@@ -33,15 +38,6 @@ class App extends React.Component {
       value: '',
     }
   }
-  
-  // OperatorPress = (operator) => {
-  //   const list = this.state.screen.concat(operator);
-  //   this.setState({screen: list})
-  //   return {
-  //     list,
-  //     value: '',
-  //   }
-  // }
 
   render () {
     return(
@@ -68,7 +64,7 @@ class App extends React.Component {
                 <button id = "multiply" onClick = {() => this.NumberPress("*")}>*</button>
                 <button id = "minus" onClick = {() => this.NumberPress("-")}>-</button>
                 <button id = "add" onClick = {() => this.NumberPress("+")}>+</button>
-                <button id = "equal" onClick = {() => this.NumberPress("=")}>=</button>
+                <button id = "equal" onClick = {() => this.EqualPress("=")}>=</button>
               </div>
           </div>
       </div>
