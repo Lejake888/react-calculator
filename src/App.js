@@ -34,6 +34,9 @@ class App extends React.Component {
   }
 
   NumberPress = (number) => {
+    if (this.state.screen) {
+      this.setState({screen: [number]})
+    }
     const list = this.state.screen.concat(number);
     this.setState({screen: list})
     // console.log(this.state.screen)
