@@ -1,12 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body {
+  background-color: rgb(218, 218, 218);
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+}
+
 .calculator {
+  width: 35%;
   text-align: right;
   display: flex;
-  justify-content: center;
   flex-direction: column;
 }
 
 .screen {
-  width: 35%;
+  width: 100%;
   height: 50px;
   background-color: black;
   color: white;
@@ -18,16 +29,24 @@ p {
 }
 
 .allButtons {
-  width: 35%;
+  width: 100%;
   display: flex;
 }
 
 button {
   width: 33.3333%;
-  border-style: 2px solid black;
   background-color: rgb(201, 201, 201);
+  border: 1px solid rgb(177, 177, 177);
   color: black;
   outline-style: none;
+}
+
+button:hover {
+  background-color: rgb(177, 177, 177);
+}
+
+button:active {
+  background-color: rgb(255, 167, 2);
 }
 
 .mainButtons {
@@ -38,11 +57,10 @@ button {
 }
 
 .operatorButtons {
-  display: flex;
-  flex-direction: wrap column;
-  min-height: 100%;
+  display: flex; 
+  flex-flow: wrap row; 
 }
 
-#clear {
+#clear, #equal {
   flex: 2;
 }
