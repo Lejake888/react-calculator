@@ -4,7 +4,7 @@ import './App.css';
 class App extends React.Component {
   state = {
     numbers : 
-    [
+    [ 
       {zero: 0},
       {one: 1},
       {two: 2},
@@ -21,8 +21,12 @@ class App extends React.Component {
 
   EqualPress = () => {
     let total = this.state.screen.toString();
-    console.log(total)
+    let calc = total.replace(/,/g, '')
+    let sum = eval(calc)
+    console.log(sum)
+    this.setState({screen: sum})
 
+    // total.join()
   }
 
   ClearPress = () => {
