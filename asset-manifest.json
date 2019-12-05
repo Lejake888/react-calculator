@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Lejake888/react-calculator.git/static/css/main.4f5a7914.chunk.css",
-    "main.js": "/Lejake888/react-calculator.git/static/js/main.22563b6f.chunk.js",
-    "main.js.map": "/Lejake888/react-calculator.git/static/js/main.22563b6f.chunk.js.map",
-    "runtime-main.js": "/Lejake888/react-calculator.git/static/js/runtime-main.08e059b4.js",
-    "runtime-main.js.map": "/Lejake888/react-calculator.git/static/js/runtime-main.08e059b4.js.map",
-    "static/js/2.6a2eb1ac.chunk.js": "/Lejake888/react-calculator.git/static/js/2.6a2eb1ac.chunk.js",
-    "static/js/2.6a2eb1ac.chunk.js.map": "/Lejake888/react-calculator.git/static/js/2.6a2eb1ac.chunk.js.map",
-    "index.html": "/Lejake888/react-calculator.git/index.html",
-    "precache-manifest.9b1e4bbc9d43999a68a0ec8b6ab235a9.js": "/Lejake888/react-calculator.git/precache-manifest.9b1e4bbc9d43999a68a0ec8b6ab235a9.js",
-    "service-worker.js": "/Lejake888/react-calculator.git/service-worker.js",
-    "static/css/main.4f5a7914.chunk.css.map": "/Lejake888/react-calculator.git/static/css/main.4f5a7914.chunk.css.map"
+    "main.css": "/react-calculator/static/css/main.e7e1e0a3.chunk.css",
+    "main.js": "/react-calculator/static/js/main.9fe6694c.chunk.js",
+    "main.js.map": "/react-calculator/static/js/main.9fe6694c.chunk.js.map",
+    "runtime-main.js": "/react-calculator/static/js/runtime-main.9fe74f65.js",
+    "runtime-main.js.map": "/react-calculator/static/js/runtime-main.9fe74f65.js.map",
+    "static/js/2.67a4624f.chunk.js": "/react-calculator/static/js/2.67a4624f.chunk.js",
+    "static/js/2.67a4624f.chunk.js.map": "/react-calculator/static/js/2.67a4624f.chunk.js.map",
+    "index.html": "/react-calculator/index.html",
+    "precache-manifest.51509720bc501d1a011bb9f0d39a0e50.js": "/react-calculator/precache-manifest.51509720bc501d1a011bb9f0d39a0e50.js",
+    "service-worker.js": "/react-calculator/service-worker.js",
+    "static/css/main.e7e1e0a3.chunk.css.map": "/react-calculator/static/css/main.e7e1e0a3.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.08e059b4.js",
-    "static/js/2.6a2eb1ac.chunk.js",
-    "static/css/main.4f5a7914.chunk.css",
-    "static/js/main.22563b6f.chunk.js"
+    "static/js/runtime-main.9fe74f65.js",
+    "static/js/2.67a4624f.chunk.js",
+    "static/css/main.e7e1e0a3.chunk.css",
+    "static/js/main.9fe6694c.chunk.js"
   ]
 }
