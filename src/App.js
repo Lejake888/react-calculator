@@ -21,10 +21,15 @@ class App extends React.Component {
 
   equalPress = () => {
     let total = this.state.screen.toString();
-    let calc = total.replace(/,/g, '')
-    let sum = eval(calc)
-    console.log(sum)
-    this.setState({screen: sum})
+    try {
+      let calc = total.replace(/,/g, '')
+      let sum = eval(calc)
+      console.log(sum)
+      this.setState({screen: sum})
+    }
+    catch {
+      this.setState({screen: "Error"})
+    }
 
     // total.join()
   }
